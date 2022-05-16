@@ -148,6 +148,12 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .social-links a:hover {
   color: #fff;
 }
+@media (max-width: 490px){
+  /* .tbinfo {
+     
+     display: none;      
+    } */
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -209,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: #fff;
+  color: rgb(133, 126, 126);;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -277,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(133, 126, 126);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -321,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(133, 126, 126);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -345,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: rgb(133, 126, 126);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {

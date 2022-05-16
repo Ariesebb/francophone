@@ -18,13 +18,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>FrancoPHONEE</title>
+  <title>FrancoPHONE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/flogo.PNG" rel="icon">
+  <link href="assets/img/flogo.PNG" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,6 +39,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/myStyle.css">
 
   <!-- =======================================================
   * Template Name: Day - v4.7.0
@@ -49,71 +50,20 @@
 </head>
 
 <body>
-   <style>
-     body{
-      background-color: #d8d8d8;
-     }
-     .mySpecial {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #cc1616;
-  border: 1px solid transparent;
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
-}
-
-.mySpecial:hover,
-.mySpecial:focus {
-  background-color: #fff;
-  color: #cc1616;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-.mySpecial:hover {
-  transform: translateY(-1px);
-}
-
-.mySpecial:active {
-  background-color: #c85000;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
-}
-.red{
-  color: #cc1616;
-}
-   </style>
+   
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:arie.sebb@gmail.com">arie.sebb@gmail.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i><a href="tel:+972586262618">0586262618&nbsp;&nbsp;&nbsp;</a>
-        <i class="bi bi-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=972586262618&text=&source=&data=">0586262618&nbsp;&nbsp;&nbsp;</a>
-        <i class="bi bi-person-square"></i><a href="CRM-francoPHONE.php">&nbsp; admin</a>
-      
-      
-       </div>
+        <div class="tbinfo"><i class="bi bi-envelope-fill"></i><a href="mailto:arie.sebb@gmail.com">arie.sebb@gmail.com</a></div>
+        <div><br>&nbsp;&nbsp;&nbsp;</div>
+        <div class="tbinfo"><i class="bi bi-phone-fill phone-icon"></i><a href="tel:+972586262618">0586262618&nbsp;&nbsp;&nbsp;</a></div>
+        <div><br></div>
+        <div class="tbinfo"><i class="bi bi-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=972586262618&text=&source=&data=">0586262618&nbsp;&nbsp;&nbsp;</a></div>
+        <div><br></div>
+        <div class="tbinfo"><i class="bi bi-person-square"></i><a href="CRM-francoPHONE.php">&nbsp; admin</a></div>
+     </div>
       
     </div>
   </section>
@@ -122,14 +72,15 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.php">FrancoPHONE</a></h1>
+      <h1 class="logo"><img src="assets/img/flogo.PNG" alt="francologo" >&nbsp;<a href="index.php">FrancoPHONE</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#about">About us</a></li>
+          <li><a class="nav-link scrollto" href="#reparation">Reparations</a></li>
           <li><a class="nav-link scrollto" href="#services">les meilleures forfait actuel</a></li>
           <li class="dropdown"><a href="#"><span>toutes les compagnies</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -154,7 +105,10 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
- 
+      <div class="heroLogo">
+      <img src="assets/img/flogo.PNG" class="rounded mx-auto d-block" alt="francologo" >
+      </div>
+      <div><br><br><br><br><br></div>
       <h1>Bienvenue au service francoPHONE</h1>
       <h2>Création de ligne telephonique ou Changez de fournisseur et conservez votre numéro de telephone.</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -414,7 +368,7 @@
 
     <!-- ======= reparation Section ======= -->
     <!-- <section id="cta" class="cta"> -->
-    <section id="pricing" class="pricing">
+    <section id="reparation" class="pricing">
       <div class="container">
 
         <div class="section-title">
